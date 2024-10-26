@@ -5,7 +5,7 @@ public class Main {
         archivo.escribirArchivo();
         archivo.leerArchivo();
 
-        String buscarPalabra = "patata";
+        String buscarPalabra = "HOLA";
         System.out.println("\nLa palabra '"+buscarPalabra+"' tiene una frecuencia de: "+ archivo.getPalabraFrecuencia(buscarPalabra));
     }
 }

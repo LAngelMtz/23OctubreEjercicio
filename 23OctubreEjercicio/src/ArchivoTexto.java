@@ -67,9 +67,8 @@ public class ArchivoTexto {
 
     public  int getPalabraFrecuencia(String palabra) {
         actualizarMap();
-        palabra.toLowerCase();
 
-        if(frecuenciaPalabras.containsKey(palabra)){return frecuenciaPalabras.get(palabra);}
+        if(frecuenciaPalabras.containsKey(palabra.toLowerCase())){return frecuenciaPalabras.get(palabra.toLowerCase());}
         else {return 0;}
     }
 
