@@ -1,0 +1,3 @@
+kami,5
+patata,9
+Patata,1
